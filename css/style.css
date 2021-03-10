@@ -1,0 +1,13 @@
+@font-face{
+	font-family: "work-sans";
+	src:url("../assets/fonts/WorkSans-Black.woff") format("woff"),
+	    url("../assets/fonts/WorkSans-Black.woff2") format("woff2");
+}
+
+
+
+body { background: royalblue;
+color: white;
+font-family: work-sans, sans-serif;
+font-size: 27px
+}
