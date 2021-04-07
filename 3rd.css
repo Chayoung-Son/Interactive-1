@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 44px;
+	background-color: white;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:4096px;
+	min-width: 1440px;
+}
+
+#grid {
+	width: 1440px;
+	height: 4096px;
+	border: 10px solid white;
+
+	background:  white;
+
+	/* uncomment below to enable the grid */
+
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 0px;
+	
+}
+
+
+
+.item {
+	background:  white;
+}
+.back {
+	position: absolute;
+
+
+}
+
+
+.box1 {
+	position: absolute;
+}
+
+.pic1{
+position: absolute;
+left: 17.78%;
+right: 17.85%;
+top: 24.98%;
+bottom: 10.87%;
+
+ -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;	
+}
+ .pic5:hover, .pic6:hover, .pic1:hover {
+    -webkit-transform:scale(1.3);
+    -moz-transform:scale(1.3);
+    -ms-transform:scale(1.3);   
+    -o-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+
+.circle1{
+	position: absolute;
+width: 125.84px;
+height: 124.01px;
+left: 1214px;
+top: 762px;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
+
+}
+
+
+
+
+.box2 {
+	position: absolute;
+}
+
+.pic2{
+position: absolute;
+left: 5.14%;
+right: 50%;
+top: 5.09%;
+bottom: 5.39%;
+	
+}
+
+.pic3{
+
+position: absolute;
+left: 3.75%;
+right: 51.39%;
+top: 5.09%;
+bottom: 5.39%;
+
+-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;	
+}
+
+
+.circle2{
+position: absolute;
+left: 87.57%;
+right: 3.94%;
+top: 74.73%;
+bottom: 13.22%;
+
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+
+
+}
+
+
+
+.box3 {
+	position: absolute;
+}
+
+
+.pic4{
+	position: absolute;
+left: 51.39%;
+right: 3.75%;
+top: 5.09%;
+bottom: 5.39%;
+-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;	
+
+}
+
+
+.circle3{
+	position: absolute;
+left: 67.43%;
+right: 26.37%;
+top: 54.89%;
+bottom: 36.25%;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+	
+}
+
+
+
+.box4 {
+	position: absolute;
+}
+
+
+.pic5{
+	position: absolute;
+left: 6.94%;
+right: 54.65%;
+top: 10.97%;
+bottom: 12.44%;
+-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;	
+
+}
+
+
+.pic6{
+position: absolute;
+left: 48.35%;
+right: 20.07%;
+top: 55.51%;
+bottom: -18.54%;
+-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;	
+
+
+}
+
+
+.circle4{
+	
+position: absolute;
+left: 86.82%;
+right: 5.4%;
+top: 24.22%;
+bottom: 65.58%;
+animation-name: bounce;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+	
+
+.circle5{
+	position: absolute;
+left: -11.25%;
+right: 88.75%;
+top: 71.5%;
+bottom: -3.68%;
+
+}
+	
+
+	
+
+.circle6{
+	position: absolute;
+left: 100%;
+right: -28.26%;
+top: 95.89%;
+bottom: -10.97%;
+
+}
+	
+
+
+
+
+
+#a {
+	grid-row-start: 1;
+	grid-row-end: 2; 
+	background: white;
+
+}
+
+
+#b{
+	grid-row-start: 2;
+	grid-row-end: 3:
+	
+	background: white;
+}
+
+
+#c {
+	grid-row-start: 3;
+	grid-row-end: 4; 
+	background:white;
+}
+
+
+#d{
+	grid-row-start: 4;
+	
+	background: white;
+}
+
+
+
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
