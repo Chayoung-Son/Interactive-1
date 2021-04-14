@@ -1,0 +1,59 @@
+
+* {
+	margin: 30px;
+	padding: 0px;
+
+}
+
+body {
+	background: #242424;;	
+
+font-size: 20px;
+font-family: "georgia"
+
+}
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+}
+a:active {
+    color: pink;
+    text-decoration: none;
+}
+/* navigation */
+
+}
+nav {
+	padding: 30px;
+	display: inline-block;
+
+}
+
+/* stage */
+
+#showcase {
+	width: 1500px;
+	height: 1000px;
+	margin: auto;
+	overflow: visible;
+	position: relative;
+	
+}
+
+/*img{
+	display: block;
+}*/
+
+/* images */
+
+svg:hover {
+	fill: #9A48EC;
+}
