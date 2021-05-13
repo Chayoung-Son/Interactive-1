@@ -1,0 +1,73 @@
+/*@font-face{
+	font-family: "work-sans";
+	src:url("../assets/fonts/WorkSans-Black.woff") format("woff"),
+	    url("../assets/fonts/WorkSans-Black.woff2") format("woff2");
+}*/
+
+#container{
+
+
+
+
+
+}
+
+body { 
+background-image: url(4567.jpg);
+background-size: cover;
+text-align: center;
+font-size: 30px;
+color:white;
+
+font-family: Helvetica;	
+
+}
+
+h1{
+color:orange;
+}
+
+p{
+font-size: 20px;
+}
+
+a{
+	font-size: 25px;
+}
+
+
+button{
+	font-size: 1rem;
+	font-weight: bold;
+	font color:white;
+	background: transparent;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: black ;
+	cursor: pointer;
+}
+
+
+/*	DARK MODE STYLES GO HERE */
+
+body.darkmode {
+	background-image: url(890.jpg);
+background-size: cover;
+
+	color: black;
+
+	/*	redefine a CSS variable */
+	--accent-color: rgb(0,255,0);
+}
+
+body.darkmode button{
+	color: white;
+}
+
+/*	define a CSS variable */
+	--accent-color: rgb(0,0,255);
+}

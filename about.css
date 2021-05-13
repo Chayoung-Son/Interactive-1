@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+
+background-color:  #F1EEEC ;
+
+font-family: Malayalam MN;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 43px;
+text-align: center;
+
+}
+
+
+
+
+
+#main{
+
+  
+   
+ height: 800px;
+  width: calc(1440px);
+  left: 100px;
+  text-align: center;
+  z-index: 1;
+  padding: 20px;
+}
+
+
+
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+   background: transparent;
+}
+
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
+}
+
+.title {
+	
+font-family: Malayalam MN;
+
+	
+	color: #FFF;
+	position:absolute;
+width: calc(50vw - 80px);
+height: 656px;
+left:325px;
+top: 160px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: .75;
+	
+}
+
+
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
+
+
+
+p{
+	position: relative;
+width: calc(50vw - 80px);
+
+
+}
+h3{
+	
+}
+
+
+
+
+
+#p1{
+	margin: 0 auto;
+	color: black;
+	text-align: left;
+	top: 0px;
+}
+
+#a1 {
+
+position: absolute;
+width: 151px;
+height: 68px;
+left: 50px;
+top: 53px;
+
+font-family: Malayalam MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 34px;
+
+color: #17304F;
+
+
+}
+
+#a2{
+
+position: absolute;
+width: 68px;
+height: 34px;
+left: 1315px;
+top: 53px;
+
+font-family: Malayalam MN;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 34px;
+
+color: #17304F;
+
+
+}
+
+
+
+
+
+
+
+a{
+position: absolute;
+
+}
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:900px;
+	min-width: 1440px;
+}
+
+#grid {
+	width: 1440px;
+	height: 940px;
+	border: 10px ;
+
+	background:transparent;
+
+	/* uncomment below to enable the grid */
+
+
+	
+}
+
+
+
+.back {
+	position: absolute;
+
+
+}
+.circle1 {
+	position: absolute;
+left: 25.67%;
+right: 47.03%;
+top: 3.44%;
+bottom: 52.51%;
+ animation-name: new-item-animation ;
+  animation-duration:7s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; 
+  animation-fill-mode:forwards;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+li.new-item {
+    opacity: 0;
+    animation: new-item-animation .3s linear forwards;
+}
+
+@keyframes new-item-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+}
+
+    to {
+        opacity: 1;
+        transform : translateY(650px);
+    }
+}
+
+
+
+
+
+
+@keyframes {
+   100% {
+      opacity: 0;
+      transform: translateY(0%);
+   }
+   5% {
+      opacity: 1;
+      transform: translateY(300%);
+   }
+} 
+
+.circle2{
+position: absolute;
+left: 42.01%;
+right: 3.4%;
+top: 31.92%;
+bottom: -19.67%;
+
+ animation-name: spin;
+  animation-duration: 13000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+\
+text{
+position: absolute;
+top: 1300px;
+left: 800px
+
+}
+
+#kc{
+
+
+
+}
+
+@media screen and (min-width:001px) and (max-width: 1000px){
+	body{
+	background:green;
+	font-size: 30px;
+	}
+	#main{
+		width: calc(100vw - 90px);
+
+	}
+}
+
+@media screen and (min-width:1001px) and (max-width: 1600px){
+	body{
+	background: yellow;
+	}
+
+	#main{
+		width: calc(100vw - 150px);
+
+	}
+	
+
+	}
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+
+@media screen and (max-width:799px){
+	body {
+		background: rgb(255,255,200);
+	}
+}
+
+@media print {
+	body{
+		font-family:items;
+	}
+}
+
+
+
+
+
+
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
